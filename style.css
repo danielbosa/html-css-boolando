@@ -42,6 +42,7 @@ body{
     left: 0;
     width: 100%;
     z-index: 1000;
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,.2);
 }
 
 header img{
@@ -58,13 +59,6 @@ header img{
 
 .mg-nav{
     margin-right: 5px;
-}
-
-i{
-    /* padding: 5px 10px 5px 0px; */
-    font-size: 12px;
-    font-weight: 700;
-    color: var(--color-background);
 }
 
 /* main */
@@ -91,6 +85,19 @@ i{
 footer{
     max-width: 100%;
     background-color: var(--color-footer);
+    color: var(--color-background);
+}
+
+.pd-footer{
+    padding: 20px 0px;
+}
+
+.pd-footer2{
+    padding-top: 5px;
+}
+
+.pd-social{
+    padding-right: 5px;
 }
 
 /* utility flex */
@@ -121,6 +128,37 @@ footer{
 
 .p-fixed{
     position: fixed;
+}
+
+/* txt */
+
+i{
+    /* padding: 5px 10px 5px 0px; */
+    font-size: 16px;
+    font-weight: 700;
+    color: var(--color-background);
+}
+
+.nav-txt{
+    font-size: 0.8em;
+    font-weight: 700;
+}
+
+.txt-footer{
+    font-size: 0.8em;
+    font-weight: 700;
+}
+
+.txt-footer2{
+    font-size: 0.6em;
+}
+
+.txt-footer3{
+    font-size: 0.7em;
+}
+
+.txt-left{
+    text-align: left;
 }
 
 /* color */
@@ -201,4 +239,16 @@ li>a{
 
 .heart:hover{
     color: var(--color-flag-discount)
+}
+
+a{
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+i:hover, .product:hover, .logo:hover{
+    cursor: pointer;
 }
