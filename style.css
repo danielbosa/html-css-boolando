@@ -54,7 +54,7 @@ header img{
 }
 
 .gap{
-    gap: 5px;
+    gap: 10px;
 }
 
 .mg-nav{
@@ -176,6 +176,10 @@ li>a{
 .product-name{
     font-size: 0.9em;
     font-weight: 700;
+}
+
+.product-brand{
+    font-size: smaller;
 }
 
 .price{
